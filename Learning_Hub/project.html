@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="canonical" href="https://orion13.us/Learning_Hub/project.html">
+  <meta name="description" content="SchoolNet — A clear guide to every screen and feature in the app.">
+  <title>App Guide — SchoolNet</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="styles1.css">
+  <style>
+    .project-page { max-width: 800px; margin: 0 auto; padding: 2rem 1.5rem; }
+    .project-page h1 { font-size: 2rem; margin-bottom: 0.5rem; }
+    .project-page .subtitle { color: var(--text-muted, #64748B); margin-bottom: 2rem; font-size: 1.1rem; }
+    .project-page h2 { font-size: 1.4rem; margin-top: 2.5rem; margin-bottom: 0.75rem; }
+    .project-page h3 { font-size: 1.15rem; margin-top: 1.5rem; margin-bottom: 0.5rem; }
+    .project-page p, .project-page li { line-height: 1.75; color: var(--text, #1E293B); margin-bottom: 0.5rem; }
+    .project-page ul { margin-left: 1.5rem; margin-bottom: 1rem; }
+    .project-page .section-card { background: white; border-radius: 12px; padding: 1.5rem; margin-bottom: 1.25rem; border: 1px solid #e2e8f0; box-shadow: 0 1px 3px rgba(0,0,0,0.05); }
+    .project-page .role-label { display: inline-block; padding: 0.25em 0.6em; border-radius: 6px; font-size: 0.8rem; font-weight: 600; margin-right: 0.5rem; }
+    .project-page .role-student { background: #dbeafe; color: #1e40af; }
+    .project-page .role-teacher { background: #fce7f3; color: #9d174d; }
+    .project-page .role-parent { background: #d1fae5; color: #065f46; }
+    .project-page .role-admin { background: #fef3c7; color: #92400e; }
+    .project-page .screen-name { font-weight: 600; color: var(--primary, #4F46E5); }
+    .project-page .back-link { display: inline-flex; align-items: center; gap: 0.5rem; color: var(--primary, #4F46E5); text-decoration: none; font-weight: 600; margin-bottom: 1.5rem; }
+    .project-page .back-link:hover { text-decoration: underline; }
+    .project-page .flow-list { list-style: none; margin-left: 0; padding-left: 0; }
+    .project-page .flow-list li { padding: 0.4rem 0; border-bottom: 1px dashed #e2e8f0; display: flex; align-items: flex-start; gap: 0.75rem; }
+    .project-page .flow-list li::before { content: "→"; color: #94a3b8; font-weight: bold; }
+  </style>
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to main content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">
+        <img src="images/logo.jpg" alt="" class="logo-img" width="36" height="36">
+        <span class="logo-text">SchoolNet</span>
+      </a>
+      <nav class="nav" aria-label="Main">
+        <a href="index.html">Home</a>
+        <a href="index.html#who">Who it's for</a>
+        <a href="index.html#how-it-works">How it works</a>
+        <a href="project.html" class="active">App Guide</a>
+        <a href="downloads/schoolnet.apk" download class="btn btn-primary btn-sm">Download for Android</a>
+      </nav>
+      <button type="button" class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main" class="project-page">
+    <a href="index.html" class="back-link">← Back to Home</a>
+
+    <h1>App Guide</h1>
+    <p class="subtitle">A clear picture of every screen and feature in SchoolNet — what you see and what you can do</p>
+
+    <section>
+      <h2>Getting Started</h2>
+      <p>When you open the app, you’ll see a short loading screen, then either sign in or create an account. New users choose their role (Student, Teacher, Parent, or Admin) before entering the main app.</p>
+      <p><strong>Sign in:</strong> Use email and password, or sign in with Google.</p>
+      <p><strong>Create account:</strong> Enter your details, verify your email if prompted, then select your role.</p>
+    </section>
+
+    <section>
+      <h2>Bottom Navigation</h2>
+      <p>After signing in, the main screen has a bottom bar with four tabs. What you see depends on your role:</p>
+      <ul>
+        <li><strong>Home</strong> — Your dashboard (different for students, teachers, parents, and admins)</li>
+        <li><strong>Notes / Assignments</strong> — Class notes or assignments (labelled based on the tab you’re on)</li>
+        <li><strong>Timetable / Activity / Results</strong> — Your schedule, your children’s activity, or results</li>
+        <li><strong>Profile</strong> — Your account, settings, and school info</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>What Students See</h2>
+      <div class="section-card">
+        <h3>Home Screen</h3>
+        <p>A welcome message, your class, and quick stats (e.g. study time, assignments done). Cards take you to:</p>
+        <ul>
+          <li><strong>Timetable</strong> — Your weekly schedule by day (subject, time, room)</li>
+          <li><strong>Class Notes</strong> — Documents and videos shared by teachers, with filters by subject</li>
+          <li><strong>Assignments</strong> — Homework and tasks with due dates; tap to open attachments</li>
+          <li><strong>Results</strong> — Report cards when published by your school</li>
+        </ul>
+        <h3>Assignments Screen</h3>
+        <p>A feed of assignments and notices. Search bar at the top. Each assignment shows title, class, subject, due date, and teacher. Tap to view details and open attachments (PDFs, images).</p>
+        <h3>Class Notes Screen</h3>
+        <p>Tabs for Documents and Videos. Notes are shown as cards with subject, title, and teacher. Tap to view or play.</p>
+        <h3>Timetable Screen</h3>
+        <p>Days of the week as tabs. For each day, a list of lessons with time, subject, and room.</p>
+        <h3>Results Screen</h3>
+        <p>If your school has published results, you’ll see your report card. Tap to open a full report with grades, totals, and teacher comments. Supports Uganda grading (PLE, O-Level, A-Level) and the new S1–S4 curriculum format.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>What Teachers See</h2>
+      <div class="section-card">
+        <h3>Home Screen</h3>
+        <p>A greeting and cards for:</p>
+        <ul>
+          <li><strong>Post Assignment</strong> — Create homework with title, class, subject, description, attachment, and due date</li>
+          <li><strong>My Assignments</strong> — List of all assignments you’ve posted; tap to edit or delete</li>
+          <li><strong>Create Notice</strong> — Post school announcements</li>
+          <li><strong>Record Discipline</strong> — Log discipline incidents for students</li>
+          <li><strong>Class Notes</strong> — Upload documents and videos for your classes</li>
+          <li><strong>Panel</strong> — Manage class lists and mark lists (for class teachers)</li>
+          <li><strong>Class Activity</strong> — See which students have opened notes (for class teachers)</li>
+          <li><strong>Approve Join Requests</strong> — Approve teachers and students joining your class (for class teachers)</li>
+        </ul>
+        <h3>Post Assignment Screen</h3>
+        <p>Form with dropdowns for class and subject, fields for title and description, file attachment, and optional due date. At the bottom, a list of your recent assignments.</p>
+        <h3>My Assignments Screen</h3>
+        <p>A full list of your posted assignments. Each card shows title, class, subject, posted date, description, due date, and attachment. Use the menu (⋮) to edit or delete.</p>
+        <h3>Panel Screen</h3>
+        <p>Class lists (e.g. Primary 5 East) with student names and IDs. Create new class lists by uploading a file or adding names. For each class, you can create mark lists, enter marks, and publish results. Marks can be imported from a spreadsheet (CSV) or entered by hand. For S1–S4, you enter formative scores (U1–U4) and summative scores (Midterm, End of Term) per subject.</p>
+        <h3>Assignments & Notices Feed</h3>
+        <p>Same as students, but teachers see an add button to post new items. Teachers can edit or delete their own assignments from the feed.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>What Parents See</h2>
+      <div class="section-card">
+        <h3>Home Screen</h3>
+        <p>Your linked children shown as cards. Tap a child to see their activity. If you haven’t linked any children, you’ll see a prompt to add their Student ID and access code.</p>
+        <h3>Activity Screen</h3>
+        <p>One view per child. Tabs for:</p>
+        <ul>
+          <li><strong>Assignments</strong> — Their assignments, grouped by child</li>
+          <li><strong>Notes</strong> — Class notes shared with their class</li>
+          <li><strong>Results</strong> — Published report cards</li>
+        </ul>
+        <p>You can see how often they’ve opened each item. Tap an assignment or note to view it. Tap a result to open the full report card.</p>
+        <h3>Profile</h3>
+        <p>Manage linked children. Add a child by entering their Student ID and access code. You can also view app usage (e.g. study time) for linked children on supported devices.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>What School Admins See</h2>
+      <div class="section-card">
+        <h3>Home Screen</h3>
+        <p>Cards for:</p>
+        <ul>
+          <li><strong>Manage Classes</strong> — Add or edit classes and streams</li>
+          <li><strong>Manage Teachers</strong> — Add teachers and assign class teachers</li>
+          <li><strong>Join Requests</strong> — Approve or reject teachers and students joining your school</li>
+          <li><strong>Edit School</strong> — Update school name, address, logo</li>
+          <li><strong>Timetable</strong> — Set the school timetable</li>
+        </ul>
+        <p>You also have access to assignments, notices, and notes like teachers.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Report Cards</h2>
+      <p>The app supports different report styles depending on the class level:</p>
+      <ul>
+        <li><strong>Primary (PLE)</strong> — Grades like D1, D2, C4, etc., with aggregate</li>
+        <li><strong>O-Level / S1–S4</strong> — New curriculum: formative (units 1–4), summative (midterm and end of term), and term average with letter grades (A*, A, B, C, D, E)</li>
+        <li><strong>A-Level (UACE)</strong> — Letter grades with points</li>
+      </ul>
+      <p>Report cards show school name, student details, subject results, grading scale, totals, and comments from the class teacher and head teacher.</p>
+    </section>
+
+    <section>
+      <h2>Profile & Settings</h2>
+      <p>From Profile you can:</p>
+      <ul>
+        <li>View and edit your name and photo</li>
+        <li>See your role and school</li>
+        <li>Request a new feature</li>
+        <li>Delete your account</li>
+      </ul>
+      <p>Teachers can see a QR code to help students join the school. Parents manage linked children from here.</p>
+    </section>
+
+    <section>
+      <h2>Notifications</h2>
+      <p>You get alerts when:</p>
+      <ul>
+        <li>New assignments or notices are posted</li>
+        <li>New class notes are shared</li>
+        <li>Results are published</li>
+        <li>Teachers and admins: when someone requests to join the school</li>
+      </ul>
+      <p>Tapping a notification opens the app to the relevant screen (e.g. the new assignment or result).</p>
+    </section>
+
+    <section>
+      <h2>Where It Runs</h2>
+      <p>SchoolNet works on phones, tablets, and desktops. Use it in a browser on a computer, or install the app on Android or iOS. Your data stays in sync across all devices.</p>
+    </section>
+
+    <section>
+      <h2>Built By</h2>
+      <p><a href="https://orion13.us" target="_blank" rel="noopener">Orion13 Technologies</a></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <div class="footer-brand-inner">
+          <img src="images/logo.jpg" alt="" class="footer-logo-img" width="32" height="32">
+          <span class="logo-text">SchoolNet</span>
+        </div>
+        <p class="footer-tagline">One platform. Your whole school. Every day.</p>
+      </div>
+      <div class="footer-credit">
+        <p><a href="privacy-policy.html">Privacy Policy</a> · <a href="terms-of-use.html">Terms of Use</a> · <a href="project.html">App Guide</a></p>
+        <p>Built by <a href="https://orion13.us" target="_blank" rel="noopener">Orion13 Technologies</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
